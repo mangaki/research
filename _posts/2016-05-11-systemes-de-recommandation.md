@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Systèmes de recommandation
+preview: /public/img/ratings.png
 ---
 
 Vous connaissez le principe, un utilisateur s'inscrit, rentre ses préférences, le système lui recommande des œuvres susceptibles de lui plaire.
