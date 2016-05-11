@@ -1,30 +1,23 @@
 ---
 layout: page
-title: About
+title: Notre équipe
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Mangaki est une association loi 1901.<br />Plus d'infos sur <a href="http://mangaki.fr/about">mangaki.fr</a>.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## Research Team
 
-There are currently two themes built on Poole:
+- [Jill-Jênn Vie](http://jill-jenn.net)
+- Basile Clement
+- [Étienne Simon](http://esimon.eu)
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+## Awards
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+- [Student Demo Cup](http://student.openworldforum.paris/edition-2015/) : **1er prix** dans la catégorie Entreprise
+- [Maison de la culture du Japon à Paris](http://mcjp.fr) : **1er prix ex æquo** du concours étudiant visant à favoriser les relations entre la France et le Japon
 
-## Setup
+Des questions ou suggestions ? N'hésitez pas à [créer un ticket sur GitHub](https://github.com/mangaki/mangaki/issues) ou [nous contacter par mail](jj@mangaki.fr).
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Bonne visite !

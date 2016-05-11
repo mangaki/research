@@ -4,18 +4,21 @@
 permalink:           pretty
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               Research @ Mangaki
+tagline:             'Recommandation d''anime et de mangas'
+description:         'Nous cherchons à faire émerger par les algorithmes des pépites de la culture japonaise.</p><p>Ce blog permet de rendre compte de nos découvertes.</p><p>Testez <a href="http://mangaki.fr">Mangaki</a> ou <a href="https://github.com/mangaki/mangaki/">forkez-nous</a>.'
+url:                 http://research.mangaki.fr
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Jill-Jênn Vie
+  url:               https://twitter.com/mangaki
+  email:             jj@mangaki.fr
+
+github:
+  repo:              https://github.com/mangaki/mangaki/
 
 # Custom vars
 version:             1.0.0
