@@ -6,6 +6,7 @@ permalink:           pretty
 # Setup
 title:               Research @ Mangaki
 tagline:             'Recommandation d''anime et de mangas'
+shortdesc:           'Nous cherchons à faire émerger par les algorithmes des pépites de la culture japonaise. Ce blog permet de rendre compte de nos découvertes.'
 description:         'Nous cherchons à faire émerger par les algorithmes des pépites de la culture japonaise.</p><p>Ce blog permet de rendre compte de nos découvertes.</p><p>Testez <a href="http://mangaki.fr">Mangaki</a> ou <a href="https://github.com/mangaki/mangaki/">forkez-nous</a>.'
 url:                 http://research.mangaki.fr
 baseurl:             ''

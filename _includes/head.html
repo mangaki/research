@@ -7,17 +7,21 @@
   <meta property="og:type" content="article" />
   <meta property="og:url" content="http://research.mangaki.fr{{ page.url }}" />
   {% if page.preview %}
-    <meta property="og:image" content="http://research.mangaki.fr/{{ page.preview }}" />
+    <meta property="og:image" content="http://research.mangaki.fr{{ page.preview }}" />
+  {% else %}
+    <meta property="og:image" content="http://research.mangaki.fr/public/img/ratings.png" />
   {% endif %}
-  <meta property="og:description" content="{{ site.description }}" />
-  <meta name="description" content="{{ site.description }}" />
+  <meta property="og:description" content="{{ site.shortdesc }}" />
+  <meta name="description" content="{{ site.shortdesc }}" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@mangakifr" />
   <meta name="twitter:title" content="{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}" />
-  <meta name="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:description" content="{{ site.shortdesc }}" />
   {% if page.preview %}
-    <meta name="twitter:image" content="http://research.mangaki.fr/{{ page.preview }}" />
+    <meta name="twitter:image" content="http://research.mangaki.fr{{ page.preview }}" />
+  {% else %}
+    <meta name="twitter:image" content="http://research.mangaki.fr/public/img/ratings.png" />
   {% endif %}
 
   <!-- Enable responsiveness on mobile devices-->
