@@ -17,8 +17,11 @@ Clone the GitHub repo and:
     python3 -m venv venv
     . venv/bin/activate
     pip install -r requirements.txt
+    pip install -r requirements/dev.txt
     # Put the ratings-ml.csv file in the data folder
-    ./mangaki/manage.py compare movies
+    cd mangaki
+    cp settings.template.ini settings.ini
+    ./manage.py compare movies
 
 It will run everything and display:
 
