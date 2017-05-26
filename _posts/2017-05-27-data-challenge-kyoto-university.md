@@ -16,7 +16,7 @@ Les données de Mangaki seront anonymisées pour l'occasion. On publiera donc un
 
 Bref, 350000 lignes du genre : « La personne n° 320 a adoré le manga n° 24 ».
 
-Le principe du concours
+Le principe du concours, qui sera sur la plateforme [University of Big Data](http://universityofbigdata.net/?lang=en) :
 
 1. À partir de ce fichier qui contient 80 % des données de Mangaki
 2. Les participants devront programmer un système de recommandation
