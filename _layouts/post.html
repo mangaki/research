@@ -6,6 +6,11 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
+
+  <script data-isso="//comments.jiji.cat/mangaki/"
+    src="//comments.jiji.cat/mangaki/js/embed.min.js"></script>
+
+  <section id="isso-thread"></section>
 </div>
 
 <div class="related">
@@ -22,9 +27,4 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-  <script data-isso="//comments.jiji.cat/mangaki/"
-    src="//comments.jiji.cat/mangaki/js/embed.min.js"></script>
-
-  <section id="isso-thread"></section>
 </div>
