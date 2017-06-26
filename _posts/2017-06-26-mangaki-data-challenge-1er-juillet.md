@@ -9,7 +9,7 @@ Mangaki organisera du **1er juillet 2017 au 31 août 2017** un concours en parte
 
 Pour participer, il est déjà possible de s'inscrire sur [University of Big Data](http://universityofbigdata.net/?lang=en) !
 
-<a href="https://twitter.com/intent/tweet?text=Le Mangaki Data Challenge, ça démarre le 1er juillet ! Inscriptions ouvertes sur&amp;url={{ site.url }}{{ page.url }}&amp;related={{ site.author.twitter }}&amp;via={{ site.author.twitter }}" rel="nofollow" target="_blank" title="Share on Twitter">Partagez l'info sur Twitter</a> ou
+<a href="https://twitter.com/intent/tweet?text=Le Mangaki Data Challenge avec #KyotoUniversity, ça démarre le 1er juillet ! Inscriptions ouvertes sur&amp;url={{ site.url }}{{ page.url }}&amp;related={{ site.author.twitter }}&amp;via={{ site.author.twitter }}" rel="nofollow" target="_blank" title="Share on Twitter">Partagez l'info sur Twitter</a> ou
     <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">sur Facebook</a> !
 
 ## Challenge
