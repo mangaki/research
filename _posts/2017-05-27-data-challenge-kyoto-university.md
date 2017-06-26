@@ -9,7 +9,7 @@ Mangaki va organiser un data challenge avec [le labo de machine learning du prof
 
 Les données de Mangaki seront anonymisées pour l'occasion. On publiera donc un fichier sous cette forme :
 
-    320,24,favorite
+    320,24,love
     24,25,like
     24,26,dislike
     ...
