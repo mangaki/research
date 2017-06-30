@@ -4,7 +4,7 @@ title: "Pourquoi vous devriez essayer la nouvelle version de Mangaki !"
 categories: changelog
 ---
 
-## 1. Nouveau design de cartes
+## 1. Nouveau design des cartes
 
 ![Screenshot du nouveau design]({{ site.url }}/public/img/mangaki_new_cards_deck.png)
 
@@ -34,7 +34,7 @@ En plus, vous pouvez préciser si vous souhaitez plutôt un ordre qui préfère 
 
 ![Screenshot de perles]({{ site.url }}/public/img/mangaki_perles_sort.png){: .center-image}
 
-## Nouveau design des profils
+## 3. Nouveau design des profils
 
 Afin de rendre vos profils plus rapides et plus simples à utiliser sur téléphone, de nouveaux onglets sont apparus.
 
@@ -45,7 +45,7 @@ Les profils sont donc :
 - plus rapides à charger.
 - plus pratiques à utiliser sur mobile.
 
-## Essayer Mangaki sans vous inscrire dès à présent !
+## 4. Essayer Mangaki avant inscription
 
 Mais si vous lisez tout cela et que vous n'êtes toujours pas inscrit, que ça soit par flemme ou méfiance de nos recommandations, alors foncez *immédiatement* sur <https://mangaki.fr> --- bonne nouvelle : **plus besoin de s'inscrire !**
 
@@ -53,7 +53,7 @@ Vous pouvez recevoir des recommandations sans être inscrit, et si vous êtes co
 
 Ceux qui sont déjà inscrits : vos amis n'auront plus d'excuse pour ne pas essayer Mangaki !
 
-# Bientôt dans Mangaki
+## Bientôt dans Mangaki
 
 - les **albums** : vous pourrez bientôt aimer le générique de votre anime préféré et vous faire recommander des œuvres en rapport à celui-ci !
 - des **synonymes** : parfois on aime bien abréger le titre d'un long manga ou anime : « SnK » ou bien « NGNL ». Il sera possible d'utiliser ces synonymes pour rechercher des œuvres.
