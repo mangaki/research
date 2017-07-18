@@ -21,9 +21,11 @@
 
       <div class="container content">
 
-        <p class="message">Le 2 juillet, nous étions à <a href="https://animemangastudies.wordpress.com"><strong>Anime Expo</strong></a>, Los Angeles ! <a href="/public/animeexpo.pdf">Voir les slides.</a> <br />
-        Testez <a href="http://mangaki.fr">Mangaki.fr</a>, suivez-nous <a href="https://github.com/mangaki/mangaki">sur GitHub</a> et <a href="mailto:jj@mangaki.fr">contactez-nous</a>.<br />
-        <a href="https://twitter.com/mangakifr" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mangakifr</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+        {% include banner.html %}
+
+        Try <a href="http://mangaki.fr">Mangaki.fr</a>, follow us <a href="https://github.com/mangaki/mangaki">on GitHub</a> or <a href="mailto:jj@mangaki.fr">contact us</a>. <a href="https://twitter.com/mangakifr" class="twitter-follow-button" data-show-count="true">Follow @mangakifr</a><br />
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <hr />
 
         {{ content }}
 

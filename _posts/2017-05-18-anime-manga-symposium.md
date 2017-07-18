@@ -3,6 +3,8 @@ layout: post
 title: Mangaki will be at the Anime & Manga Symposium @ Anime Expo, Los Angeles!
 ---
 
+<p class="message">Le 2 juillet, nous étions à <a href="https://animemangastudies.wordpress.com"><strong>Anime Expo</strong></a>, Los Angeles ! <a href="/public/animeexpo.pdf">Voir les slides.</a></p>
+
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Hey ! Je vais me présenter au Anime &amp; Manga Studies Symposium <a href="https://twitter.com/AnimeExpo">@AnimeExpo</a> du 1er au 4 juillet, à Los Angeles ! ✈️🇺🇸</p>&mdash; Mangaki (@MangakiFR) <a href="https://twitter.com/MangakiFR/status/867753444676820993">25 mai 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Car oui, nous avons été acceptés pour faire une présentation à la conférence académique d'Anime Expo.
