@@ -4,7 +4,7 @@ title: Notre équipe
 ---
 
 <p class="message">
-  Mangaki est une association loi 1901.<br />Plus d'infos sur <a href="http://mangaki.fr/about">mangaki.fr</a>.
+  Mangaki est une association loi 1901. <a href="http://mangaki.fr/about">Plus d'infos</a>.
 </p>
 
 ## Research Team
