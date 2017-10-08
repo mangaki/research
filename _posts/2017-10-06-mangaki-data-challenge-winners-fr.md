@@ -3,6 +3,8 @@ layout: post
 title: "Palmarès du Mangaki Data Challenge"
 ---
 
+(This article is also available [in English](/2017/10/08/mangaki-data-challenge-winners-en/).)
+
 ## Le Mangaki Data Challenge
 
 <p align="center"><a href="https://mangaki.fr"><img src="/public/img/mangaki.png" style="display: inline; margin: 0" /></a></p>
@@ -23,7 +25,7 @@ Les participants devaient déterminer si certains utilisateurs ont envie de lire
 
 :   [**GeniusIke**](http://wattlebird.github.io/about/) (Microsoft, China), qui gagne un background artbook [Your Name.](https://mangaki.fr/anime/14495) et l’OST du film [Fireworks](https://mangaki.fr/anime/18331) (Shaft) qui sortira en France le 3 janvier 2018 !  
 - [Écouter des extraits de l'OST de Fireworks sur YouTube.](https://www.youtube.com/watch?v=PLydu6Z6h_Q)
-- [Voir la solution du gagnant.](https://wattlebird.github.io/2017/10/02/Mangaki-Data-challange-1st-place-solution/)
+- [Voir la solution du gagnant.](https://wattlebird.github.io/2017/10/02/Mangaki-data-challenge-1st-place-solution/)
 
 <p align="center"><img src="/public/img/your-name-is-fireworks.jpg" /></p>
 
@@ -43,7 +45,7 @@ Les participants devaient déterminer si certains utilisateurs ont envie de lire
 
 ## Quelles sont les solutions des gagnants ?
 
-Le gagnant, **GeniusIke** (AUC = 86 %), a [décrit sa solution dans un billet de blog](https://wattlebird.github.io/2017/10/02/Mangaki-Data-challange-1st-place-solution/) et a [publié son code sur GitHub](https://github.com/wattlebird/MangakiChallenge) !
+Le gagnant, **GeniusIke** (AUC = 86 %), a [décrit sa solution dans un billet de blog](https://wattlebird.github.io/2017/10/02/Mangaki-data-challenge-1st-place-solution/) et a [publié son code sur GitHub](https://github.com/wattlebird/MangakiChallenge) !
 
 À noter que la simple solution consistant à prédire une combinaison linéaire du training set a permis à **BC** d’arriver 5e avec une AUC de 82.6 % !  
 (Cf. [le palmarès](http://bit.ly/mangakidatachallenge) ainsi que [ce notebook](https://github.com/mangaki/notebooks/blob/master/Mangaki%20Data%20Challenge.ipynb).)
@@ -57,17 +59,17 @@ On se demande avec notre récent travail de l’été ([BALSE](https://github.co
 ## Quels pays ont participé ?
 
 - France : 13
-- Japan : 6
+- Japon : 6
 - US : 5
-- China, Spain, Taïwan, Korea, Russia, India, Hungary, Mexico : 1
+- Chine, Espagne, Taïwan, Corée du Sud, Russie, Inde, Hongrie, Mexique : 1
 
 ## Pourquoi organiser ce concours ?
 
-Plein de raisons !
+Pour les raisons suivantes :
 
 - Parler du [projet open source **Mangaki**](https://github.com/mangaki/mangaki/)
 - Promouvoir nos ratings en **open data**  
-(certains professeurs peuvent les utiliser dans leurs cours)
+(certains professeurs les utilisent déjà dans leurs cours, ou [même au lycée](https://github.com/mangaki/movielens/))
 - Intéresser plus de gens aux **compétitions de data science**
 
 Suivez-nous sur [Twitter](https://twitter.com/mangakifr) et [Facebook](https://fb.me/mangakifr) pour être au courant du prochain challenge !
