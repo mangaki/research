@@ -3,3 +3,15 @@
     margin: 0 auto;
     display: block;
 }
+
+.container nav p {
+  text-align: center;
+  width: 10rem;
+  margin: 1em 1em;
+  flex: auto;
+  display: block
+}
+
+ul.message {
+    padding-left: 2rem;
+}

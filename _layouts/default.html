@@ -23,8 +23,16 @@
 
         {% include banner.html %}
 
-        Try <a href="http://mangaki.fr">Mangaki.fr</a>, follow us <a href="https://github.com/mangaki/mangaki">on GitHub</a> or <a href="mailto:jj@mangaki.fr">contact us</a>. <a href="https://twitter.com/mangakifr" class="twitter-follow-button" data-show-count="true">Follow @mangakifr</a><br />
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <nav style="display: flex; flex-flow: row wrap;">
+          <p><a href="https://mangaki.fr" target="_extra"><strong>Try Mangaki.fr</strong></a><br /> or see <a href="https://github.com/mangaki/mangaki/releases" target="_extra">what's new</a>!</p>
+          <p>Read our research article <a href="https://arxiv.org/pdf/1709.01584"><strong>BALSE.pdf</strong></a></p>
+          <p>
+            <iframe src="https://ghbtns.com/github-btn.html?user=mangaki&repo=mangaki&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+            <a href="https://twitter.com/mangakifr" class="twitter-follow-button" data-show-count="true">Follow @mangakifr</a><br />
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </p>
+        </nav>
+
         <hr />
 
         {{ content }}

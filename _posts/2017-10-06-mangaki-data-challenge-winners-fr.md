@@ -37,7 +37,7 @@ Les participants devaient déterminer si certains utilisateurs ont envie de lire
 
 :   **karekyasu**, qui gagne 2 ecocups collector [JoJolion](https://mangaki.fr/manga/5910) par [Sedeto](http://sedeto.fr).
 
-<p align="center"><img src="/public/img/jojolion.png" style="display: inline" /><img src="/public/img/jojolion.png" style="display: inline" /></p>
+<p align="center"><img src="/public/img/jojolion.png" /></p>
 
 [**Voir le palmarès complet**](http://universityofbigdata.net/competition/5085548788056064?lang=en) sur University of Big Data.
 
