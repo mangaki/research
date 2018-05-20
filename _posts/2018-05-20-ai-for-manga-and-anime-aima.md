@@ -15,7 +15,7 @@ We all love anime characters and are tempted to create our own, but most of us c
 
 > *Make.Girls.Moe got 1 million views the first 10 days. Our research proceedings were quickly sold out at the Comic Market #92 (Tokyo) in Summer 2017.*
 
-![MakeGirlsMoe](/public/img/mgm.png)
+![MakeGirlsMoe](/public/img/mgm.jpg)
 
 [MakeGirlsMoe](https://make.girls.moe) – [Technical Report](https://makegirlsmoe.github.io/assets/pdf/technical_report.pdf) (NIPS Workshop for Creativity & Design)  
 [Crypko](https://crypko.ai) – [White paper](https://crypko.ai/static/files/crypko-whitepaper.pdf)
