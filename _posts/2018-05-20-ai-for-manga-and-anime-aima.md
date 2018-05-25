@@ -50,13 +50,15 @@ Tool: [Illustration2Vec](https://github.com/rezoo/illustration2vec) by [Yusuke M
 
 - [Taizan Yonetsuji](https://github.com/taizan) ([Preferred Networks](https://www.preferred-networks.jp/ja/), Japan)
 
-## Manga Style Transfer: TwinGAN
+## Manga Style Transfer
 
 Cross-Domain Translation of Human Portraits.
 
-![TwinGAN: manga style transfer](/public/img/twingan.jpg)
+![Manga style transfer](/public/img/twingan.jpg)
 
-[Blog post](https://github.com/jerryli27/TwinGAN)
+Slide from Yanghua Jin's presentation *Creating Anime Characters with GAN* at the [Tokyo Deep Learning Workshop](http://www.ms.k.u-tokyo.ac.jp/TDLW2018/) held in RIKEN AIP on March 21, 2018.
+
+[Blog post about TwinGAN](https://github.com/jerryli27/TwinGAN)
 
 - [Jerry Li](https://jerrylijiaming.com) (Google)
 
