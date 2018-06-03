@@ -54,7 +54,7 @@ Tool: [Illustration2Vec](https://github.com/rezoo/illustration2vec) by [Yusuke M
 
 Cross-Domain Translation of Human Portraits.
 
-![Manga style transfer](/public/img/twingan.jpg)
+![Manga style transfer](/public/img/twingan_sample.png)
 
 Slide from Yanghua Jin's presentation *Creating Anime Characters with GAN* at the [Tokyo Deep Learning Workshop](http://www.ms.k.u-tokyo.ac.jp/TDLW2018/) held in RIKEN AIP on March 21, 2018.
 
