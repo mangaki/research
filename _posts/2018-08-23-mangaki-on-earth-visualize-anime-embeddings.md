@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mangaki on Earth (MoE): visualize anime embeddings
+title: "Mangaki on Earth (MoE): visualize anime embeddings"
 ---
 
 So actually in Mangaki, [our algorithms](https://github.com/mangaki/mangaki/tree/master/mangaki/mangaki/algo) allow us to learn a latent representation (also called *embedding*) of every [anime](https://mangaki.fr/anime/) or [manga](https://mangaki.fr/manga/) and every <span style="color: #f60">user</span>, so that **people like anime in their direction**.
