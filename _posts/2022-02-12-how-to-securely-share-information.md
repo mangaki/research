@@ -25,7 +25,7 @@ We propose a solution based on [this paper][paper] written by Bonawitz _et. al._
 ## The problem our reference paper solves
 
 The goal of the work of Bonawitz _et. al._ is to train machine learning models on users' machines in a privacy-preserving way.
-Each user has their own data that they do not wan to reveal, but the model has to fit that data.
+Each user has their own data that they do not want to reveal, but the model has to fit that data.
 The example they give is that of word guessing:
 users want to have a model that guesses the next word they are going to type,
 so that they can write faster, but they do not want anyone to know exactly what they are typing.
@@ -39,7 +39,7 @@ For each step, each user computes their gradient, then everyone agrees on the me
 ![The users send their gradients, and the server uses the sum](/public/img/sum.png)
 
 The paper of Bonawitz _et. al._ explains how to compute the mean of the gradients without anyone -- not even the server -- knowing the others' gradients.
-It even goes a bit further than that: users can drop at any time during the training process, and the model will sill be trained as long as a certain amount of users are still connected (this relies on _secret sharing_).
+It even goes a bit further than that: users can drop at any time during the training process, and the model will still be trained as long as a certain amount of users are still connected (this relies on _secret sharing_).
 
 ## Using this to our advantage
 
@@ -96,7 +96,7 @@ There is another problem: that of malevolent user trying to write everywhere (si
 This is sorted out by appending individual messages with hashes, so that when two messages
 are written in the same slot the hashed don't match anymore.
 
-The protocol is also made more secure by requiring key echanges and signed transactions,
+The protocol is also made more secure by requiring key exchanges and signed transactions,
 so that users know that the other users they see are not dummies controlled by a malicious server.
 
 It also uses secret sharing, so that if some user drops from the exchange the aggregation process can continue,
@@ -127,7 +127,7 @@ In that case, each anime has an embedding, and each user has their own embedding
 Ratings are predicted by simple dot products $$\langle \texttt{user} \mid \texttt{anime} \rangle$$.
 There are several possibilities for users to find their recommendations.
 
-The first possibility is that, since each user knows where their own perefences lie in the collected data,
+The first possibility is that, since each user knows where their own preferences lie in the collected data,
 they can download the whole model and perform the dot products themselves without the server knowing
 which of the collected preferences belongs to the user.
 This implies no more leakage of data than what we currently have.
