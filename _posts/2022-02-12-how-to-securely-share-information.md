@@ -117,6 +117,30 @@ To get a secure $$w_i$$, each pair of users agrees on a random vector they will 
 
 For even more detail, and a proof of the security of the protocol, see the [paper][paper] of Bonawitz _et. al._
 
+## Second extra: Closing the loop with privacy-preserving recommendation
+
+We discussed privacy-preserving _aggregation_ of data, and we showed we can use it to gather training data for ML models.
+We can go further and provide secure recommendations without leaking information about user preferences.
+
+Let's say we collected data and we trained an ALS model.
+In that case, each anime has an embedding, and each user has their own embedding too.
+Ratings are predicted by simple dot products $$\langle \texttt{user} \mid \texttt{anime} \rangle$$.
+There are several possibilities for users to find their recommendations.
+
+The first possibility is that, since each user knows where their own perefences lie in the collected data,
+they can download the whole model and perform the dot products themselves without the server knowing
+which of the collected preferences belongs to the user.
+This implies no more leakage of data than what we currently have.
+
+We could also have the server publish the data of every anonymized user (publish the dot products directly), which amounts to the same,
+this just changes where the computation happens but not the security model.
+
+We could also have the server publish just the embedding of every anime, and the users train their own local model.
+With this technique, we loose a little accuracy on the predictions, but we gain several benefits:
+ * The data each user has to download (the embedding of each anime) is small (the order of magnitude would be 100 kilobytes at most) compared to what they have to download with the previous solutions;
+ * New users who didn't participate in the preference collection process can have ratings (since they can train their own model based on the embeddings they are given by the server);
+ * There is no complicated bookkeeping: users don't have to know where their data lies in the anonymized data set.
+
 [^oppositescancel]: To make it work, when $$\mathcal{U}_i$$ and $$\mathcal{U}_j$$ agree on $$v$$,
     $$\mathcal{U}_i$$ adds $$v$$ to her individual noise vector and $$\mathcal{U}_j$$ adds $$-v$$, so that $$v$$ and $$-v$$ cancel out when the final sum is computed.
 
