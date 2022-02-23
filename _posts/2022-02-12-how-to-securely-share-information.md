@@ -55,7 +55,7 @@ Christine prefers $${\mathtt{1010}}$$ and Dominique votes $${\mathtt{0101}}$$ (w
 
 ![Our users communicating with Mangaki](/public/img/persons.png)
 
-Alice, Beatrice, Christine and Dominique just need to know how where to put their individual preferences in the final vector.
+Alice, Beatrice, Christine and Dominique just need to know where to put their individual preferences in the final vector.
 Let's say Alice will take the first 4 bits, Beatrice will take the next 4 bits, and so on.
 
 The final message will then be $${\mathtt{1001\,0110\,1010\,0101}}$$, _i.e._, with proper notation,
@@ -83,7 +83,7 @@ the result can be safely published without compromising the users' privacy.
 
 ## More detail
 
-The previous example is, of course, degenerate, because there are only two users, and our strategy to find slots for each user is too expansive.
+The previous example is, of course, degenerate, because there are only four users, and our strategy to find slots for each user is too expensive.
 
 In practice, there are many users, therefore the only information one can ever have about the resulting dataset
 is that each collected preference vector belongs to some user that contributed, but no more information than that can be gathered,
@@ -136,7 +136,7 @@ We could also have the server publish the data of every anonymized user (publish
 this just changes where the computation happens but not the security model.
 
 We could also have the server publish just the embedding of every anime, and the users train their own local model.
-With this technique, we loose a little accuracy on the predictions, but we gain several benefits:
+With this technique, we lose a little accuracy on the predictions, but we gain several benefits:
  * The data each user has to download (the embedding of each anime) is small (the order of magnitude would be 100 kilobytes at most) compared to what they have to download with the previous solutions;
  * New users who didn't participate in the preference collection process can have ratings (since they can train their own model based on the embeddings they are given by the server);
  * There is no complicated bookkeeping: users don't have to know where their data lies in the anonymized data set.
