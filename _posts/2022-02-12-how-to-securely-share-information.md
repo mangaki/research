@@ -46,10 +46,15 @@ It even goes a bit further than that: users can drop at any time during the trai
 What out reference paper really explains is how to securely aggregate information as long as the information can be encoded as a vector.
 But in computer science, everything can be seen as a vector of bits, so we can transform this method in a method to anonymously collect messages from our users.
 
+To make an analogy, the aggregation process is like having a piece of paper and some magic ink that it is invisible until it is heated.
+People can write whatever they want on the paper and then reveal the result after they all finished to write.
+Because they use magic ink that is invisible until the paper is heated, they can't read what the others wrote.
+Here, we want people to write their preferences and then reveal the list of all preferences without being able to guess the participants' preferences.
+
 Concretely, let's say we have four users, Alice, Beatrice, Christine and Dominique.
 Let's say their preferences can be encoded over 4 bits[^scale], and that the encoded preference is never null.
 Alice and her friends will build an 8 bits long message that will contain their preferences.
-We use 16 bits because the final message will contain four slots, one for each individual message.
+We use 16 bits because the final message will contain four "slots", one for each individual message.
 Alice's preferences are $${\mathtt{1001}}$$, Beatrice's are $${\mathtt{0110}}$$,
 Christine prefers $${\mathtt{1010}}$$ and Dominique votes $${\mathtt{0101}}$$ (we can use any other non-null encoding).
 
@@ -65,6 +70,10 @@ Using the technique that is explained by Bonawitz _et. al._, we can compute this
 ![Computing the final message](/public/img/xoring.png)
 
 We only have one problem: how do Alice, Beatrice, Christine and Dominique know in which slot to put their preferences ?
+To continue the magic ink analogy, when people are writing, they don't know if they are writing at a place where someone else already wrote.
+The difficulty is that they need a way to find somewhere to write, without explicitly agreeing on which part of the paper belongs to whom since knowing where people write implies knowing what they write.
+
+So how do people know where to write without colliding with someone else's data ?
 The solution is simple: they don't!
 They randomly choose a place in the final vector.
 If two of them choose the same place, we'll know, because the final vector will not make sense (one of the two four will be null).
