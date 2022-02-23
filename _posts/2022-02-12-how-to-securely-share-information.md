@@ -107,9 +107,18 @@ are written in the same slot the hashed don't match anymore.
 
 The protocol is also made more secure by requiring key exchanges and signed transactions,
 so that users know that the other users they see are not dummies controlled by a malicious server.
+These cryptographic schemes come from libraries that are essentially built on top of curve25519 cryptography.
 
-It also uses secret sharing, so that if some user drops from the exchange the aggregation process can continue,
+The protocol also uses Shamir Secret Sharing, so that if some user drops from the exchange the aggregation process can continue,
 as long as there are enough remaining users.
+
+We also use [ChaCha](https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant) for cryptographically secure random data generation.
+
+The libraries we used are:
+ * [sss-rs](https://crates.io/crates/sss-rs)
+ * [x25519-dalek](https://crates.io/crates/x25519-dalek)
+ * [libsodium](https://doc.libsodium.org/)
+ * [rand chacha](https://crates.io/crates/rand_chacha)
 
 ## Extra: An overview of the reference paper's idea
 
